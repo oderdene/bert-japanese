@@ -231,11 +231,12 @@ class LivedoorProcessor(DataProcessor):
 
   def get_labels(self):
     """See base class."""
-    return ['Opening', 'News', 'Weather', 'Talk / MC', 'Music Performance / PV', 'Corner Description / Intent',
-'Review / Introduction', 'Ending', 'Sentence', 'Others', 'Quiz / Game', 'Comedy', 'Program Promotion',
-'Ranking', 'Travel / Journey / Walking', 'Sport News', 'Wide Show', 'News Coverage', 'Liberal Arts / Hobbies', 'Life',
-'Sports Live', 'Cooking', 'Highlights', 'Event Promotion', 'Anime / SFX', 'Reproduction VTR', 'Theatre / Performance',
-'Mail order', 'Drama', 'Reality', 'Finance', 'Gambling relay', 'Movie', 'Provided']
+    return ['Entertainment','Finance','Gourmet','Mail order','Music','News','Other','Program Promotion','Sports','Weather']
+#    return ['Opening', 'News', 'Weather', 'Talk / MC', 'Music Performance / PV', 'Corner Description / Intent',
+#'Review / Introduction', 'Ending', 'Sentence', 'Others', 'Quiz / Game', 'Comedy', 'Program Promotion',
+#'Ranking', 'Travel / Journey / Walking', 'Sport News', 'Wide Show', 'News Coverage', 'Liberal Arts / Hobbies', 'Life',
+#'Sports Live', 'Cooking', 'Highlights', 'Event Promotion', 'Anime / SFX', 'Reproduction VTR', 'Theatre / Performance',
+#'Mail order', 'Drama', 'Reality', 'Finance', 'Gambling relay', 'Movie', 'Provided']
 #     return ['dokujo-tsushin', 'it-life-hack', 'kaden-channel', 'livedoor-homme', 'movie-enter', 'peachy', 'smax', 'sports-watch', 'topic-news']
 
   def _create_examples(self, lines, set_type):
